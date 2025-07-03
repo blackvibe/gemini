@@ -2,3 +2,7 @@ name = "gemini"
 main = "src/worker.mjs"
 compatibility_date = "2024-09-23"
 compatibility_flags = [ "nodejs_compat" ]
+
+# Настройка регионов для выполнения Workers
+[site]
+allowed = ["us-central", "eu-central"]  # Разрешенные регионы: США и Европа
